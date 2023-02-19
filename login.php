@@ -45,7 +45,7 @@ session_start();
 
 	<head>
 		
-		<title>KUDI | Entrar</title>
+		<title>Kudi | Entrar</title>
 	</head>
 
 	<style>
@@ -107,16 +107,16 @@ session_start();
 		
 		<div id="bar">
 
-			<div style="font-size: 40px;">KUDI</div>
+			<div style="font-size: 40px;">Kudi</div>
 			<a href="<?=ROOT?>signup">
-			<div id="signup_button">Se Inscrever</div>
+			<div id="signup_button">Criar Conta</div>
 			</a>
 		</div>
 
 		<div id="bar2">
 			
 			<form method="post">
-				Entrar no KUDI<br><br>
+				Iniciar Sessão<br><br>
 
 				<input name="email" value="<?php echo $email ?>" type="text" id="text" placeholder="Email"><br><br>
 				<input name="password" value="<?php echo $password ?>" type="password" id="text" placeholder="Password"><br><br>
