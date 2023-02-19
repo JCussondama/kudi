@@ -45,7 +45,7 @@
 
  						<form method="post" enctype="multipart/form-data">
 
-	 						<textarea name="post" placeholder="Whats on your mind?"></textarea>
+	 						<textarea name="post" placeholder="O que deseja partilhar?"></textarea>
 	 						<input type="file" name="file">
 	 						<input id="post_button" type="submit" value="Post">
 	 						<br>

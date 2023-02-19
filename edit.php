@@ -194,7 +194,7 @@
 
 	  									echo "Edit Post<br><br>";
  										
- 										echo '<textarea name="post" placeholder="Whats on your mind?">'.$ROW['post'].'</textarea>
+ 										echo '<textarea name="post" placeholder="O que deseja partilhar?">'.$ROW['post'].'</textarea>
 	 											<input type="file" name="file">';
 
 	  									echo "<input type='hidden' name='postid' value='$ROW[postid]'>";
