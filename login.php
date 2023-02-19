@@ -45,7 +45,7 @@ session_start();
 
 	<head>
 		
-		<title>KUDI | Log in</title>
+		<title>KUDI | Entrar</title>
 	</head>
 
 	<style>
@@ -109,14 +109,14 @@ session_start();
 
 			<div style="font-size: 40px;">KUDI</div>
 			<a href="<?=ROOT?>signup">
-			<div id="signup_button">Signup</div>
+			<div id="signup_button">Se Inscrever</div>
 			</a>
 		</div>
 
 		<div id="bar2">
 			
 			<form method="post">
-				Log in to KUDIk<br><br>
+				Entrar no KUDI<br><br>
 
 				<input name="email" value="<?php echo $email ?>" type="text" id="text" placeholder="Email"><br><br>
 				<input name="password" value="<?php echo $password ?>" type="password" id="text" placeholder="Password"><br><br>
