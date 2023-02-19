@@ -60,26 +60,26 @@
 				if($actor['userid'] != $id){
 					echo $actor['first_name'] . " " . $actor['last_name'];
 				}else{
- 					echo "You ";
+ 					echo "Você ";
 				}
 
  				if($notif_row['activity'] == "like"){
-					echo " liked ";
+					echo " Gostei ";
 				}else
 				if($notif_row['activity'] == "follow"){
-					echo " followed ";
+					echo " A seguir ";
 				}else
 				if($notif_row['activity'] == "comment"){
-					echo " commented ";
+					echo " comentou ";
 				}else
 				if($notif_row['activity'] == "tag"){
-					echo " tagged ";
+					echo " Identificou ";
 				}else
 				if($notif_row['activity'] == "role"){
-					echo " changed your access to ";
+					echo " alterou o seu acesso a ";
 				}else
 				if($notif_row['activity'] == "invite"){
-					echo " invited you to ";
+					echo " convidou-o ";
 				}
 
 

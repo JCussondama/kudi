@@ -27,7 +27,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Notifications | Mybook</title>
+		<title>Notificações | Kudi</title>
 	</head>
 
 	<style type="text/css">
@@ -191,7 +191,7 @@
  							 	include("single_notification.php");
   					 		 endforeach; ?>
   					 	<?php else: ?>
-  					 			No notifications were found
+  					 			Sem Notificações found
   					 	<?php endif; ?>
 
  					</div>

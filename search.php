@@ -21,7 +21,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>People who like | Mybook</title>
+		<title>Pessoas que gostam de | Kudi</title>
 	</head>
 
 	<style type="text/css">
@@ -162,7 +162,7 @@
  					 			}
   					 		}else{
 
-  					 			echo "no results were found";
+  					 			echo "não foram encontrados resultados";
   					 		}
 
   					 ?>

@@ -34,9 +34,9 @@
 
  						<form method="post" enctype="multipart/form-data">
 
-	 						<textarea name="post" placeholder="Whats on your mind?"></textarea>
+	 						<textarea name="post" placeholder="O que deseja partilhar?"></textarea>
 	 						<input type="file" name="file">
-	 						<input id="post_button" type="submit" value="Post">
+	 						<input id="post_button" type="submit" value="Postar">
 	 						<br>
  						</form>
  					</div>
@@ -64,10 +64,10 @@
 	 					 ?>
   	 					
   	 					<a href="<?= $pg['next_page'] ?>">
-	 					 <input id="post_button" type="button" value="Next Page" style="float: right;width:150px;">
+	 					 <input id="post_button" type="button" value="Próxima Página" style="float: right;width:150px;">
 	 					 </a>
 	 					 <a href="<?= $pg['prev_page'] ?>">
-	 					 <input id="post_button" type="button" value="Prev Page" style="float: left;width:150px;">
+	 					 <input id="post_button" type="button" value="Página anterior" style="float: left;width:150px;">
 	 					 </a>
 	 				</div>
 
