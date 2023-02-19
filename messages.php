@@ -57,7 +57,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Messages | Mybook</title>
+		<title>Mensagens | Kudi</title>
 	</head>
 
 	<style type="text/css">
@@ -222,7 +222,7 @@
 
 								 		if(isset($URL[1]) && $URL[1] == "read"){
 
- 								 			echo "Chatting with:<br><br>";
+ 								 			echo "Conversando com:<br><br>";
 	  										if(isset($URL[2]) && is_numeric($URL[2])){
 								 			
  								 				$data = $msg_class->read($URL[2]);
@@ -268,7 +268,7 @@
 		 										echo '
 		 										<div style="border:solid thin #aaa; padding: 10px;background-color: white;">
 
- 								 						<textarea name="message" placeholder="Write your message here"></textarea>
+ 								 						<textarea name="message" placeholder="Escreve aqui a tua mensagem"></textarea>
 								 						<input type="file" name="file" >
 								 						<input id="post_button" type="submit" value="Send">
 								 						<br>
@@ -285,7 +285,7 @@
 								 		}else
 								 		if(isset($URL[1]) && $URL[1] == "new"){
 
-	  										echo "Start New Message with:<br><br>";
+	  										echo "Iniciar conversa com:<br><br>";
 	  										if(isset($URL[2]) && is_numeric($URL[2])){
 	  											
 	  											$user = new User();
@@ -296,7 +296,7 @@
 		 										echo '
 		 										<div style="border:solid thin #aaa; padding: 10px;background-color: white;">
 
- 								 						<textarea name="message" placeholder="Write your message here"></textarea>
+ 								 						<textarea name="message" placeholder="Escreve aqui a tua mensagem"></textarea>
 								 						<input type="file" name="file" >
  								 						<input id="post_button" type="submit" value="Send">
 								 						<br>
@@ -313,7 +313,7 @@
 
 								 		}else{
 
-	  										echo "Messages<br><br>";
+	  										echo "Mensagens<br><br>";
 		  									$data = $msg_class->read_threads();
 		  									$user = new User();
 		  									$me = esc($_SESSION['mybook_userid']);
@@ -328,7 +328,7 @@
 			  										include("thread.php");
 			  									}
 		  									}else{
-		  										echo "You have no messages!";
+		  										echo "Você não tem mensagens!";
 		  									}
 
 		  									echo "<br style='clear:both;'>";

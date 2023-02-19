@@ -76,7 +76,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Profile | Mybook</title>
+		<title>Perfil | Kudi</title>
 	</head>
 
 	<style type="text/css">
@@ -285,8 +285,8 @@
 
 					<?php if(i_own_content($user_data)):?>
 					
-						<a onclick="show_change_profile_image(event)" style="text-decoration: none;color:#f0f;" href="<?=ROOT?>change_profile_image/profile">Change Profile Image</a> | 
-						<a onclick="show_change_cover_image(event)" style="text-decoration: none;color:#f0f;" href="<?=ROOT?>change_profile_image/cover">Change Cover</a>
+						<a onclick="show_change_profile_image(event)" style="text-decoration: none;color:#f0f;" href="<?=ROOT?>change_profile_image/profile">Alterar a foto de perfil</a> | 
+						<a onclick="show_change_cover_image(event)" style="text-decoration: none;color:#f0f;" href="<?=ROOT?>change_profile_image/cover">Alterar a capa</a>
 					
 					<?php endif; ?>
 
@@ -327,17 +327,17 @@
 				<br>
 
 
-				<a href="<?=ROOT?>home"><div id="menu_buttons">Timeline</div></a>
-				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/about"><div id="menu_buttons">About</div></a>
-				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/followers"><div id="menu_buttons">Followers</div></a>
-				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/following"><div id="menu_buttons">Following</div></a>
-				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/photos"><div id="menu_buttons">Photos</div></a>
+				<a href="<?=ROOT?>home"><div id="menu_buttons">Cronologia</div></a>
+				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/about"><div id="menu_buttons">Sobre</div></a>
+				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/followers"><div id="menu_buttons">Seguidores</div></a>
+				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/following"><div id="menu_buttons">Seguindo</div></a>
+				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/photos"><div id="menu_buttons">Fotos</div></a>
 				
 				<?php 
 					if($user_data['userid'] == $_SESSION['mybook_userid']){
 						
-						echo '<a href="'.ROOT. 'profile/'.$user_data['userid'].'/groups"><div id="menu_buttons">Groups</div></a>';
-						echo '<a href="'.ROOT. 'profile/'.$user_data['userid'].'/settings"><div id="menu_buttons">Settings</div></a>';
+						echo '<a href="'.ROOT. 'profile/'.$user_data['userid'].'/groups"><div id="menu_buttons">Grupos</div></a>';
+						echo '<a href="'.ROOT. 'profile/'.$user_data['userid'].'/settings"><div id="menu_buttons">Definições</div></a>';
 					}
 				?>
 			</div>

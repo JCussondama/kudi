@@ -47,7 +47,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Timeline | Mybook</title>
+		<title>Cronologia | Kudia</title>
 	</head>
 
 	<style type="text/css">

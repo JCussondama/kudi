@@ -60,7 +60,7 @@ session_start();
 		#signup_button{
 
 			background-color: #42b72a;
-			width: 70px;
+			width: 100px;
 			text-align: center;
 			padding:4px;
 			border-radius: 4px;
@@ -121,7 +121,7 @@ session_start();
 				<input name="email" value="<?php echo $email ?>" type="text" id="text" placeholder="Email"><br><br>
 				<input name="password" value="<?php echo $password ?>" type="password" id="text" placeholder="Password"><br><br>
 
-				<input type="submit" id="button" value="Log in">
+				<input type="submit" id="button" value="Entrar Agora">
 				<br><br><br>
 
 			</form>

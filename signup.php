@@ -46,7 +46,7 @@
 
 	<head>
 		
-		<title>Mybook | Signup</title>
+		<title>Kudi | Criar Conta</title>
 	</head>
 
 	<style>
@@ -61,7 +61,7 @@
 		#signup_button{
 
 			background-color: #42b72a;
-			width: 70px;
+			width: 100px;
 			text-align: center;
 			padding:4px;
 			border-radius: 4px;
@@ -108,36 +108,36 @@
 		
 		<div id="bar">
 
-			<div style="font-size: 40px;">Mybook</div>
-			<a href="login.php">
-			<div id="signup_button">Log in</div>
+			<div style="font-size: 40px;">Kudi</div>
+			<a href="login">
+			<div id="signup_button">Iniciar Sessão</div>
 			</a>
 		</div>
 
 		<div id="bar2">
 			
-			Sign up to Mybook<br><br>
+			 Regista-te<br><br>
 
 			<form method="post" action="">
 
-				<input value="<?php echo $first_name ?>" name="first_name" type="text" id="text" placeholder="First name"><br><br>
-				<input value="<?php echo $last_name ?>" name="last_name" type="text" id="text" placeholder="Last name"><br><br>
+				<input value="<?php echo $first_name ?>" name="first_name" type="text" id="text" placeholder="primeiro nome"><br><br>
+				<input value="<?php echo $last_name ?>" name="last_name" type="text" id="text" placeholder="ultimo nome"><br><br>
 
-				<span style="font-weight: normal;">Gender:</span><br>
+				<span style="font-weight: normal;">Gênero:</span><br>
 				<select id="text" name="gender">
 					
 					<option><?php echo $gender ?></option>
-					<option>Male</option>
-					<option>Female</option>
+					<option>Masculino</option>
+					<option>Feminino</option>
 
 				</select>
 				<br><br>
 				<input value="<?php echo $email ?>" name="email" type="text" id="text" placeholder="Email"><br><br>
 				
-				<input name="password" type="password" id="text" placeholder="Password"><br><br>
-				<input name="password2" type="password" id="text" placeholder="Retype Password"><br><br>
+				<input name="password" type="password" id="text" placeholder="Senha"><br><br>
+				<input name="password2" type="password" id="text" placeholder="insira a Senha novamente"><br><br>
 
-				<input type="submit" id="button" value="Sign up">
+				<input type="submit" id="button" value="Regista-te">
 				<br><br><br>
 
 			</form>
