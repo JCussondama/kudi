@@ -57,7 +57,7 @@
 			if(file_exists($MESSAGE['file'])){
 
 				echo "<a href='".ROOT."image_view/msg/$MESSAGE[id]' >";
-				echo ". View Full Image . ";
+				echo ". Ver Imagem completa . ";
 				echo "</a>";
 			}
 		?>

@@ -45,7 +45,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Single Post | Mybook</title>
+		<title>Postagem simples | Kudi</title>
 	</head>
 
 	<style type="text/css">

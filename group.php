@@ -89,7 +89,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Group | Mybook</title>
+		<title>Grupo | Kudi</title>
 	</head>
 
 	<style type="text/css">
@@ -97,8 +97,8 @@
 		#blue_bar{
 
 			height: 50px;
-			background-color: #405d9b;
-			color: #d9dfeb;
+			background-color:#555dff;// #405d9b;
+			color:#555dff;// #d9dfeb;
 
 		}
 

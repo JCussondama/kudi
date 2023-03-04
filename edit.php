@@ -61,7 +61,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Delete | Mybook</title>
+		<title>Apagar |Kudi</title>
 	</head>
 
 	<style type="text/css">

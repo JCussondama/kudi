@@ -131,7 +131,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Change Profile Image | Mybook</title>
+		<title>Mudar a imagemd e perfil | Kudi</title>
 	</head>
 
 	<style type="text/css">
@@ -140,7 +140,7 @@
 
 			height: 50px;
 			background-color: #405d9b;
-			color: #d9dfeb;
+			color: #555dff;//#d9dfeb;
 
 		}
 
