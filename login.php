@@ -52,8 +52,8 @@ session_start();
 		
 		#bar{
 			height:100px;
-			background-color: rgb(59,89,152);
-			color: #d9dfeb;
+			background-color: #555dff; //rgb(59,89,152);
+			color:#d9dfeb;
 			padding: 4px;
 		}
 

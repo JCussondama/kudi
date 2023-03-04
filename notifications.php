@@ -35,7 +35,7 @@
 		#blue_bar{
 
 			height: 50px;
-			background-color: #405d9b;
+			background-color:#555dff;// #405d9b;
 			color: #d9dfeb;
 
 		}

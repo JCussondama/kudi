@@ -116,7 +116,7 @@ class Post
 			}
 		}else
 		{
-			$this->error .= "Please type something to post!<br>";
+			$this->error .= "Por favor, digite algo para postar!<br>";
 		}
 
 		return $this->error;
@@ -177,7 +177,7 @@ class Post
 
 		}else
 		{
-			$this->error .= "Please type something to post!<br>";
+			$this->error .= "Por favor, digite algo para postar!<br>";
 		}
 
 		return $this->error;

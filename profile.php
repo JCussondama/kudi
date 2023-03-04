@@ -84,8 +84,8 @@
 		#blue_bar{
 
 			height: 50px;
-			background-color: #405d9b;
-			color: #d9dfeb;
+			background-color:#555dff; // #405d9b
+			color: #555dff;  // #d9dfeb
 
 		}
 

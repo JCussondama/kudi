@@ -135,12 +135,12 @@
 			if($ROW['has_image'] && ($ext == "jpeg" || $ext == "jpg")){
 
 				echo "<a href='".ROOT."image_view/$ROW[postid]' >";
-				echo ". Ver Full Image . ";
+				echo ". Ver Imagem Completa ";
 				echo "</a>";
 			}
 		?>
 
-		<span style="color: #999;float:right">
+		<span style="color: ##555dff;float:right">
 			
 			<?php 
 

@@ -89,7 +89,7 @@
 			if($COMMENT['has_image']){
 
 				echo "<a href='".ROOT."image_view/$COMMENT[postid]' >";
-				echo ". View Full Image . ";
+				echo ". Ver Imagem completa . ";
 				echo "</a>";
 			}
 		?>

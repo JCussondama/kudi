@@ -13,14 +13,14 @@ class Group
 
 			if(empty($value))
 			{
-				$this->error = $this->error . $key . " is empty!<br>";
+				$this->error = $this->error . $key . " Está vazio!<br>";
 			}
 
  			if($key == "group_name")
 			{
 				if (is_numeric($value)) {
         
- 					$this->error = $this->error . "group name cant be a number<br>";
+ 					$this->error = $this->error . "O nome do grupo não pode ser um número<br>";
     			}
  
 			}
@@ -28,7 +28,7 @@ class Group
 			if($key == "group_type" && ($value != "Public" && $value != "Private"))
 			{
          
- 				$this->error = $this->error . "Please enter a valid group type<br>";
+ 				$this->error = $this->error . "Por favor inserir um número válido<br>";
   
 			}
 

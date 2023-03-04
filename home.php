@@ -36,7 +36,7 @@
 		{
 
 			echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-			echo "<br>The following errors occured:<br><br>";
+			echo "<br>Ocorreram os seguinte erros:<br><br>";
 			echo $result;
 			echo "</div>";
 		}
@@ -47,6 +47,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
+	<meta http-equiv="refresh" content="15; url="<?php echo $_SERVER['PHP_SELF']; ?>"> 
 		<title>Cronologia | Kudia</title>
 	</head>
 
@@ -55,8 +56,8 @@
 		#blue_bar{
 
 			height: 50px;
-			background-color: #405d9b;
-			color: #d9dfeb;
+			background-color: #555dff;
+			color:#555dff;
 
 		}
 
@@ -203,7 +204,7 @@
 
 	 						<textarea name="post" placeholder="O que deseja partilhar?"></textarea>
 	 						<input type="file" name="file">
-	 						<input id="post_button" type="submit" value="Post">
+	 						<input id="post_button" type="submit" value="Postar">
 	 						<br>
  						</form>
  					</div>
@@ -258,10 +259,10 @@
  
 	 					 ?>
 	 					 <a href="<?= $pg['next_page'] ?>">
-	 					 <input id="post_button" type="button" value="Next Page" style="float: right;width:150px;">
+	 					 <input id="post_button" type="button" value="Próxima página" style="float: right;width:150px;">
 	 					 </a>
 	 					 <a href="<?= $pg['prev_page'] ?>">
-	 					 <input id="post_button" type="button" value="Prev Page" style="float: left;width:150px;">
+	 					 <input id="post_button" type="button" value="Página anterior" style="float: left;width:150px;">
 	 					 </a>
 	 				</div>
 

@@ -107,8 +107,8 @@ if(isset($URL[1]) && ($URL[1] == "profile" || $URL[1] == "cover"))
 				{
 
 					echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-					echo "<br>The following errors occured:<br><br>";
-					echo "Only images of size 3Mb or lower are allowed!";
+					echo "<br>Ocorreram os seguintes erros:<br><br>";
+					echo "Permitido apenas imagens com 3MB ou menor!";
 					echo "</div>";
 
 				}
@@ -116,8 +116,8 @@ if(isset($URL[1]) && ($URL[1] == "profile" || $URL[1] == "cover"))
 			{
 
 				echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-				echo "<br>The following errors occured:<br><br>";
-				echo "Only images of Jpeg type are allowed!";
+				echo "<br>Ocorreram os seguintes erros:<br><br>";
+				echo "Permitido apenas imagens no formato JPG!";
 				echo "</div>";
 
 			}
@@ -125,8 +125,8 @@ if(isset($URL[1]) && ($URL[1] == "profile" || $URL[1] == "cover"))
 		}else
 		{
 			echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-			echo "<br>The following errors occured:<br><br>";
-			echo "please add a valid image!";
+			echo "<br>Ocorreram os seguintes erros:<br><br>";
+			echo "Por favor adicione uma imagem válida!";
 			echo "</div>";
 		}
 

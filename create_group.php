@@ -67,7 +67,7 @@
 		#bar{
 			height:100px;
 			background-color: rgb(59,89,152);
-			color: #d9dfeb;
+			color: #555dff;//#d9dfeb;
 			padding: 4px;
 		}
 

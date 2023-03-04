@@ -69,7 +69,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Single Post | Mybook</title>
+		<title>Postagem simples| Kudi</title>
 	</head>
 
 	<style type="text/css">
@@ -77,8 +77,8 @@
 		#blue_bar{
 
 			height: 50px;
-			background-color: #405d9b;
-			color: #d9dfeb;
+			background-color:#555dff;// #405d9b;
+			color: #555dff;//#d9dfeb;
 
 		}
 
@@ -260,10 +260,10 @@
  						<?php if($ROW['parent'] == 0): ?>
 
 	 						<a href="<?= $pg['next_page'] ?>">
-		 					 <input id="post_button" type="button" value="Next Page" style="float: right;width:150px;">
+		 					 <input id="post_button" type="button" value="Próxima página" style="float: right;width:150px;">
 		 					 </a>
 		 					 <a href="<?= $pg['prev_page'] ?>">
-		 					 <input id="post_button" type="button" value="Prev Page" style="float: left;width:150px;">
+		 					 <input id="post_button" type="button" value="Página anterior" style="float: left;width:150px;">
 		 					 </a>
 
 		 				<?php endif; ?>

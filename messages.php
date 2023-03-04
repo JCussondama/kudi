@@ -55,8 +55,11 @@
 ?>
 
 <!DOCTYPE html>
+
+
 	<html>
 	<head>
+	<meta http-equiv="refresh" content="7; url="<?php echo $_SERVER['PHP_SELF']; ?>"> 
 		<title>Mensagens | Kudi</title>
 	</head>
 
@@ -65,7 +68,7 @@
 		#blue_bar{
 
 			height: 50px;
-			background-color: #405d9b;
+			background-color:#555dff;//#405d9b;
 			color: #d9dfeb;
 
 		}

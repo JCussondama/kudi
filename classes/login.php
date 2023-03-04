@@ -29,12 +29,12 @@ class Login
 
 			}else
 			{
-				$this->error .= "wrong email or password<br>";
+				$this->error .= "Email ou Password errada<br>";
 			}
 		}else
 		{
 
-			$this->error .= "wrong email or password<br>";
+			$this->error .= "Email ou Password errada<br>";
 		}
 
 		return $this->error;
