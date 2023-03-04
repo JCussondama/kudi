@@ -59,7 +59,7 @@
 
 	<head>
 		
-		<title>Mybook | Create Group</title>
+		<title>Kudi | Create Group</title>
 	</head>
 
 	<style>
