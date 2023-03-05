@@ -34,7 +34,7 @@
 			{
 
 				echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-				echo "<br>The following errors occured:<br><br>";
+				echo "<br>Ocorreram os seguintes erros:<br><br>";
 				echo $result;
 				echo "</div>";
 			}
@@ -60,7 +60,7 @@
 		}
 	}else{
 
-		$ERROR = "No post was found!";
+		$ERROR = "Nenhum Post encontrado!";
 	}
 
  
@@ -225,10 +225,10 @@
 
 	 						<form method="post" enctype="multipart/form-data">
 
-		 						<textarea name="post" placeholder="Post a comment"></textarea>
+		 						<textarea name="poste" placeholder="Poste um comentário"></textarea>
 		 						<input type="hidden" name="parent" value="<?php echo $ROW['postid'] ?>">
 		 						<input type="file" name="file">
-		 						<input id="post_button" type="submit" value="Post">
+		 						<input id="post_button" type="submit" value="Poste">
 		 						<br>
 	 						</form>
 	 					</div>
@@ -276,7 +276,7 @@
 		</div>
 		<!-- end post -->
 	<?php else: ?>
-		<div style="padding: 1em;text-align: center;background-color: white;">Sorry, you do not have access to this content!</div>
+		<div style="padding: 1em;text-align: center;background-color: white;">Desculpa, Você não tem acesso a este conteúdo!</div>
 	<?php endif; ?>
 	</body>
 </html>

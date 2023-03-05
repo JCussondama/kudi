@@ -24,7 +24,7 @@
 
 		<?php 
 
-			$online = "Last seen: <br> Unknown";
+			$online = "Visto pela última vez: <br> Unknown";
 			if($FRIEND_ROW['online'] > 0){
 				$online = $FRIEND_ROW['online'];
 
@@ -34,7 +34,7 @@
 				if(($current_time - $online) < $threshold){
 					$online = "<span style='color:green;'>Online</span>";
 				}else{
-					$online = "Last seen: <br>" . Time::get_time(date("Y-m-d H:i:s",$online));
+					$online = "Visto pela última vez: <br>" . Time::get_time(date("Y-m-d H:i:s",$online));
 				}
 			}
 		?>

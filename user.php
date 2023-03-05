@@ -24,7 +24,7 @@
 
 		<?php 
 
-			$online = "Last seen: <br> Unknown";
+			$online = "Visto pela última vez: <br> Unknown";
 			if($FRIEND_ROW['online'] > 0){
 				$online = $FRIEND_ROW['online'];
 

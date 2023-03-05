@@ -24,7 +24,7 @@
 
 		<?php 
 
-			$online = "Last seen: <br> Unknown";
+			$online = "Visto pela última vez: <br> Unknown";
 			if($FRIEND_ROW['online'] > 0){
 				$online = $FRIEND_ROW['online'];
 
@@ -38,7 +38,7 @@
 				}
 			}
 
-			$invited = isset($URL[2]) && $URL[2] == "invited" ? true : false;
+			$invited = isset($URL[2]) && $URL[2] == "Convidado" ? true : false;
 
 		
 
@@ -50,7 +50,7 @@
 
 			if($invited && isset($INVITER_ROW)){
 
-				echo "You were invited by " . $INVITER_ROW['first_name'] . " " . $INVITER_ROW['last_name'] . "<br><br>";
+				echo "Você foi convidade por: " . $INVITER_ROW['first_name'] . " " . $INVITER_ROW['last_name'] . "<br><br>";
 			}
 		?>
 		<a href="<?=ROOT?>group_request_accept/<?=$group_data['userid']?>/<?=$FRIEND_ROW['userid']?>/decline">
